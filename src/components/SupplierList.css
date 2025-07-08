@@ -1,0 +1,95 @@
+.supplier-list-container {
+  padding: 24px;
+  background-color: #f0f2f5;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+/* Stat Card Styles */
+.stat-card .ant-card-body {
+  padding: 20px;
+}
+
+.stat-card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.stat-card-main {
+  flex: 1;
+  min-width: 0; /* Prevents content from overflowing flex container */
+}
+
+.stat-card-title {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.stat-card-value {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85);
+  white-space: nowrap;
+  margin: 8px 0;
+  display: block;
+}
+
+.stat-card-footer {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #f0f0f0;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.stat-card-icon {
+  font-size: 32px;
+  color: #bfbfbf;
+}
+
+.stat-card-footer .anticon-arrow-up {
+  color: #52c41a;
+}
+
+.stat-card-footer .anticon-arrow-down {
+  color: #f5222d;
+}
+
+/* Toolbar Styles */
+.toolbar {
+  margin-bottom: 16px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+/* Table Styles */
+.supplier-table .ant-table-thead > tr > th {
+  background-color: #fafafa;
+  font-weight: 600;
+}
+
+.supplier-name-cell {
+  display: flex;
+  align-items: center;
+}
+
+.supplier-name-cell .anticon {
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+.supplier-name-details .name {
+  font-weight: 500;
+}
+
+.supplier-name-details .code {
+  color: rgba(0, 0, 0, 0.45);
+}
