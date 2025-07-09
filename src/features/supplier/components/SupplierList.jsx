@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 import SupplierStats from './SupplierStats';
 import SupplierToolbar from './SupplierToolbar';
 import SupplierTable from './SupplierTable';
-import { suppliers } from '../dummies/supplier';
-import './SupplierList.css';
+import { suppliers } from '../data/supplier';
+import '../styles/SupplierList.css';
 
 const { Content } = Layout;
 const { Title } = Typography;

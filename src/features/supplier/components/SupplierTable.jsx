@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Table, Typography, Space } from 'antd';
 import { PictureOutlined } from '@ant-design/icons';
-import './SupplierList.css'; // Reusing the same CSS file for table styles
+import '../styles/SupplierList.css';
 
 const { Text } = Typography;
 

@@ -1,8 +1,8 @@
 import { Layout } from 'antd';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
-import SupplierList from './components/SupplierList';
-import SupplierPage from './components/SupplierPage';
+import SupplierList from './features/supplier/components/SupplierList';
+import SupplierPage from './features/supplier/components/SupplierPage';
 
 const { Header, Content, Footer } = Layout;
 
