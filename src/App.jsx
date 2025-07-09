@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import SupplierList from './features/supplier/components/SupplierList';
 import SupplierPage from './features/supplier/components/SupplierPage';
+import AddNewSupplier from './features/supplier/components/AddNewSupplier';
 
 const { Header, Content, Footer } = Layout;
 
@@ -14,7 +15,7 @@ const App = () => {
         <Layout>
           <Routes>
             <Route path="/" element={<SupplierList />} />
-            <Route path="/add-supplier" element={<SupplierPage />} />
+            <Route path="/add-supplier" element={<AddNewSupplier />} />
             <Route path="/supplier-dashboard" element={<SupplierList />} />
             <Route path="/review-approvals" element={<SupplierList />} />
             <Route path="/configurations" element={<SupplierList />} />

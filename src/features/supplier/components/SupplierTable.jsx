@@ -67,7 +67,7 @@ const SupplierTable = ({ data }) => {
         columns={columns}
         dataSource={data}
         rowKey="id"
-        pagination={{ pageSize: 10 }}
+        pagination={{ pageSize: 5 }}
       />
     </div>
   );

@@ -93,3 +93,54 @@
 .supplier-name-details .code {
   color: rgba(0, 0, 0, 0.45);
 }
+
+/* Modal Styling */
+.ant-modal-header {
+  background-color: #f4f6f9;
+  padding: 16px;
+  font-size: 18px;
+}
+
+.ant-tabs-nav {
+  background-color: #fafafa;
+}
+
+.ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+.ant-btn-primary:hover {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+/* Styling tambahan untuk form dan upload */
+.ant-upload {
+  width: 100%;
+  text-align: center;
+}
+
+.ant-upload-select-picture-card {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.ant-form-item-label {
+  font-weight: bold;
+}
+
+.ant-table-tbody > tr > td {
+  padding: 10px;
+}
+
+/* index.css atau file CSS terkait */
+.ant-tabs-nav {
+  padding-left: 20px;
+}
+
+.ant-tabs-tab {
+  padding-left: 20px;
+}
+
